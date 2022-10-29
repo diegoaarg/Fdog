@@ -1,0 +1,13 @@
+
+<app-search></app-search>
+
+<div class="d-flex flex-wrap">
+    <div class="stickers">
+        <div class="sticker" *ngFor="let sticker of stickers" class="card" style="width: 10rem;">
+            <img [src]="sticker.images.downsized.url"  class="card-img-top" alt="Image">
+            <div class="card-body">
+                <h5 class="card-title">{{sticker.title}}</h5>
+            </div>
+        </div>
+    </div>
+

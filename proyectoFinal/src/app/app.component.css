@@ -1,0 +1,6 @@
+body{
+    display:block;
+    background:  url(src/assets/imagenes/bbg.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,16 @@
+.gifs{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+    padding-top: 50px;
+}
+.gif img{
+    max-width: 200px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+.card-body{
+    background-color: rgb(190, 190, 190);
+}

@@ -1,0 +1,21 @@
+.stickers{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+    padding-top: 50px;
+    
+}
+
+.sticker img{
+    max-width: 200px;
+    background-color: rgb(171, 182, 182);
+    border-style: solid;
+
+}
+
+
+.card-body{
+    background-color: rgb(190, 190, 190);
+}

@@ -1,0 +1,14 @@
+
+<app-search></app-search>
+
+<div class="d-flex flex-wrap">
+    <div class="gifs">
+        <div class="gif" *ngFor="let gif of gifs" class="card" style="width: 10rem;">
+            <img [src]="gif.images.downsized.url"  class="card-img-top" alt="Image">
+            <div class="card-body">
+                <h5 class="card-title">{{gif.title}}</h5>
+            </div>
+        </div>
+    </div>
+
+
